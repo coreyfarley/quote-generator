@@ -63,3 +63,10 @@ ERROR: Invalid request. Try 'quote' or 'motivate'.
 ```
 
 This microservice is designed to return **one quote per request**. Each request must follow the REQ/REP message pattern exactly.
+
+## Sequence Diagram
+
+The diagram below illustrates how the client interacts with the quote microservice using ZeroMQ:
+
+![Sequence Diagram](uml_diagram.png)
+
