@@ -20,7 +20,7 @@ def main():
     socket = context.socket(zmq.REP)
     
     print("Quote service starting on port 8765...")
-    socket.bind("tcp://*:8765")
+    socket.bind("tcp://*:5555")
     
     try:
         while True:
